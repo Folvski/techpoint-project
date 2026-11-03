@@ -1,0 +1,24 @@
+.btn{
+  border: none;
+  border-radius: 25px;
+  padding: 12px 22px;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: rgb(21, 43, 165);
+  color:white;
+  cursor: pointer;
+
+  }
+  .btn:hover{
+    background-color: rgb(9, 24, 109);
+    transition: 500ms;
+  } 
+  .img-box{
+    flex:1;
+  }
+  .img-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: block;
+  }
