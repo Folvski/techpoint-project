@@ -22,3 +22,8 @@ section {
   margin: 0 auto;
   padding: 40px 20px;
 }
+.grid{
+  display: grid;
+  gap:22px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
