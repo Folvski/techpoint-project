@@ -1,11 +1,8 @@
 const PRODUCTS_URL = "data/products.json";
 
 function getProducts() {
-
-
   return fetch(PRODUCTS_URL)
   .then((response) => {
- 
     if(!response.ok){
       throw new Error ("Не удалось загрузить " + PRODUCTS_URL + ": " + response.status)
     }
@@ -31,6 +28,6 @@ function getProductById(id) {
 }
 
 function formatPrice(price){
-  return price.toFixed(2) + "BYN";
+  return price.toFixed(2) + " BYN";
 }
 
