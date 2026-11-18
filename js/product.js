@@ -1,6 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
-console.log("id из адреса: ", id, typeof id);
+const id = Number(params.get("id"));
 
 function renderNotFound(){
     const wrap = document.querySelector("#product-wrap")

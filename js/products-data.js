@@ -12,12 +12,11 @@ function getProducts() {
   });
 }
 
-function getProductById(id) {
-  const numericId = Number(id); 
+function getProductById(id) { 
   return getProducts()
   .then((products) => {
     for (const product of products) {
-      if (product.id === numericId) {
+      if (product.id === id) {
         return product;
       }
     }
