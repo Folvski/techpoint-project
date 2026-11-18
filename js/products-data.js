@@ -3,11 +3,9 @@ const PRODUCTS_URL = "data/products.json";
 function getProducts() {
   return fetch(PRODUCTS_URL)
   .then((response) => {
-    if(!response.ok){
-      throw new Error ("Не удалось загрузить " + PRODUCTS_URL + ": " + response.status)
-    }
     return response.json()
   })
+  
   .catch((error) => {
     console.error(error);
     return [];
