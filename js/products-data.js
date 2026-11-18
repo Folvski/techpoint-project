@@ -1,12 +1,8 @@
 const PRODUCTS_URL = "data/products.json";
-let productsCache = null;
 
 function getProducts() {
 
-  if(productsCache){
-    return Promise.resolve(productsCache);
-  }
-  // переписать
+
   return fetch(PRODUCTS_URL)
   .then((response) => {
  
@@ -14,10 +10,6 @@ function getProducts() {
       throw new Error ("Не удалось загрузить " + PRODUCTS_URL + ": " + response.status)
     }
     return response.json()
-  })
-  .then((products) => {
-    productsCache = products;
-    return products;
   })
   .catch((error) => {
     console.error(error);
