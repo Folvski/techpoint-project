@@ -30,37 +30,17 @@
     <section class="popular">
         <h1>Популярные товары</h1>
         <div class="cards">
-            <div class="grid" id="popular-products">
-                 <article class="card">
-                <div class="card-img"></div>
-                <div class = "card-cat">Ноутбуки</div>
-                <div class="card-title">Ноутбук Apple MacBook Pro 15</div>
-                <div class="card-rating">★ 4.9</div>
-                <div class="price">1099 BYN</div>
-                <a href="product.html" class="btn">Подробне</a> </article>
-             <article class="card">
-                <div class="card-img"></div>
-                <div class = "card-cat">Ноутбуки</div>
-                <div class="card-title">Ноутбук Apple MacBook Pro 15</div>
-                <div class="card-rating">★ 4.9</div>
-                <div class="price">1099 BYN</div>
-                <a href="product.html" class="btn">Подробне</a> </article>
-             <article class="card">
-                <div class="card-img"></div>
-                <div class = "card-cat">Ноутбуки</div>
-                <div class="card-title">Ноутбук Apple MacBook Pro 15</div>
-                <div class="card-rating">★ 4.9</div>
-                <div class="price">1099 BYN</div>
-                <a href="product.html" class="btn">Подробне</a> </article>
-             <article class="card">
-                <div class="card-img"></div>
-                <div class = "card-cat">Ноутбуки</div>
-                <div class="card-title">Ноутбук Apple MacBook Pro 15</div>
-                <div class="card-rating">★ 4.9</div>
-                <div class="price">1099 BYN</div>
-                <a href="product.html" class="btn">Подробне</a> </article>
-            </div>
+            <div class="grid" id="popular-products"></div>
         </div>
     </section>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/products-render.js"></script>
+    <script>
+        getProducts()
+        .then((products) => {
+            renderProducts("#popular-products", products.slice(0,4))
+        })
+    </script>
 </body>
 </html>
