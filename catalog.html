@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">TechPoint</a>
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="cart.html">Корзина</a>
+            <a href="register.html">Регистрация</a>
+            <a href="login.html">Войти</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Каталог товаров</h2>
+        <div class="grid" id="catalog-products"></div>
+    </section>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/products-render.js"></script>
+    <script>
+        getProducts()
+        .then((products) => {
+            renderProducts("#catalog-products", products)
+        })
+    </script>
+</body>
+</html>

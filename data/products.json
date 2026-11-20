@@ -1,0 +1,146 @@
+[
+{
+    "id": 1,
+    "name": "Ноутбук ASUS VivoBook 15",
+    "category": "Ноутбуки",
+    "image": "img/products/laptop1.png",
+    "price": 1890,
+    "rating": 4.5,
+    "description": "Универсальный ноутбук для учебы и работы"
+},
+{
+    "id": 2,
+    "name": "Ноутбук Lenovo IdeaPad 3",
+    "category": "Ноутбуки",
+    "image": "img/products/laptop2.png",
+    "price": 1590.6,
+    "rating": 4.3,
+    "description": "Доступный ноутбук с хорошей производительностью"
+},
+{
+    "id": 3,
+    "name": "Ноутбук Apple MacBook Air",
+    "category": "Ноутбуки",
+    "image": "img/products/laptop3.png",
+    "price": 3690,
+    "rating": 5.0,
+    "description": "Современный и мощный ноутбук для работы"
+},
+{
+    "id": 4,
+    "name": "Ноутбук Dell XPS 13",
+    "category": "Ноутбуки",
+    "image": "img/products/laptop4.png",
+    "price": 3290.5,
+    "rating": 4.8,
+    "description": "Премиальный ультрабук с ярким дисплеем"
+},
+{
+    "id": 5,
+    "name": "Смартфон Samsung Galaxy S24",
+    "category": "Смартфоны",
+    "image": "img/products/smartphone1.png",
+    "price": 2890,
+    "rating": 4.8,
+    "description": "Флагманский смартфон с отличной камерой"
+},
+{
+    "id": 6,
+    "name": "Смартфон iPhone 15 Pro",
+    "category": "Смартфоны",
+    "image": "img/products/smartphone2.png",
+    "price": 3490,
+    "rating": 4.9,
+    "description": "Премиальный смартфон от Apple"
+},
+{
+    "id": 7,
+    "name": "Смартфон Xiaomi Redmi Note 13",
+    "category": "Смартфоны",
+    "image": "img/products/smartphone3.png",
+    "price": 890,
+    "rating": 4.5,
+    "description": "Доступный смартфон с хорошими характеристиками"
+},
+{
+    "id": 8,
+    "name": "Смартфон Google Pixel 8",
+    "category": "Смартфоны",
+    "image": "img/products/smartphone4.png",
+    "price": 2490.9,
+    "rating": 4.7,
+    "description": "Смартфон с чистым Android и лучшей камерой"
+},
+{
+    "id": 9,
+    "name": "Планшет iPad Air",
+    "category": "Планшеты",
+    "image": "img/products/tablet1.png",
+    "price": 2190,
+    "rating": 4.8,
+    "description": "Легкий и мощный планшет для работы и развлечений"
+},
+{
+    "id": 10,
+    "name": "Планшет Samsung Galaxy Tab S9",
+    "category": "Планшеты",
+    "image": "img/products/tablet2.png",
+    "price": 1990,
+    "rating": 4.6,
+    "description": "Планшет с ярким AMOLED дисплеем"
+},
+{
+    "id": 11,
+    "name": "Планшет Xiaomi Pad 6",
+    "category": "Планшеты",
+    "image": "img/products/tablet3.png",
+    "price": 1290,
+    "rating": 4.4,
+    "description": "Планшет с отличным соотношением цены и качества"
+},
+{
+    "id": 12,
+    "name": "Планшет Lenovo Tab P12",
+    "category": "Планшеты",
+    "image": "img/products/tablet4.png",
+    "price": 1490.7,
+    "rating": 4.3,
+    "description": "Большой планшет для мультимедиа и учебы"
+},
+{
+    "id": 13,
+    "name": "Компьютер iMac 24",
+    "category": "Компьютеры",
+    "image": "img/products/computer1.png",
+    "price": 4990,
+    "rating": 4.9,
+    "description": "Моноблок Apple с ярким Retina дисплеем"
+},
+{
+    "id": 14,
+    "name": "Компьютер HP Pavilion",
+    "category": "Компьютеры",
+    "image": "img/products/computer2.png",
+    "price": 2790,
+    "rating": 4.5,
+    "description": "Надежный настольный компьютер для дома и офиса"
+},
+{
+    "id": 15,
+    "name": "Компьютер Dell XPS Desktop",
+    "category": "Компьютеры",
+    "image": "img/products/computer3.png",
+    "price": 3590.2,
+    "rating": 4.7,
+    "description": "Мощный компьютер для профессиональных задач"
+},
+{
+    "id": 16,
+    "name": "Компьютер Lenovo IdeaCentre",
+    "category": "Компьютеры",
+    "image": "img/products/computer4.png",
+    "price": 2290.8,
+    "rating": 4.4,
+    "description": "Компактный компьютер с хорошей производительностью"
+}
+]

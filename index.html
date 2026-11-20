@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPoint - техника для учёбы и жизни</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">TechPoint</a>
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="cart.html">Корзина</a>
+            <a href="register.html">Регистрация</a>
+            <a href="login.html">Войти</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Техника, которая работает так же быстро, как ты учишься</h1>
+            <p class="hero-p">Наушники, смартфоны, ноутбуки и аксессуары — всё, что нужно для учёбы, проектов и повседневной жизни.</p>
+            <a href="catalog.html" class="btn">Перейти в каталог</a>
+             </div>
+        <div class="img-box"><img src="img/hero.png" alt="Современная техника"></div>
+    </section>
+
+    <section class="popular">
+        <h1>Популярные товары</h1>
+        <div class="cards">
+            <div class="grid" id="popular-products"></div>
+        </div>
+    </section>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/products-render.js"></script>
+    <script>
+        getProducts()
+        .then((products) => {
+            renderProducts("#popular-products", products.slice(0,4))
+        })
+    </script>
+</body>
+</html>
